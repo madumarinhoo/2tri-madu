@@ -1,7 +1,7 @@
 :root {
-    --cor-de-fundo:#b61b82;
+    --cor-de-fundo:#2c0d9c;
     --cor-cabecalho: #ffffff;
-    --fundo-menu: #1bb6ae;
+    --fundo-menu: #022e81;
 
 }
 
@@ -13,6 +13,7 @@ body {
 
 }
 .cabecalho-titulo{
+    display: inline-block;
     font-size: 36px;
     font-weight: 700;
     padding: 12px;
@@ -29,4 +30,8 @@ text-decoration: none;
 color: black;
 text-align: center;
 border-top: 1px solid;
+}
+
+.cabecalho-img {
+    width: 80px;
 }
